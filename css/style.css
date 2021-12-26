@@ -1,0 +1,332 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 20px;
+}
+
+
+
+
+/*nav選單*/
+.navbar{
+	background-color: rgb(27, 24, 24);
+	
+}
+.navbar-brand img {
+	
+	height: 25px;
+	width: 30px;
+	opacity: 70%;
+	
+}
+.navbar-brand img:hover{
+	transform: scale(1.2);
+	opacity: 100%;
+}	
+.nav-link{
+	color: white;
+	font-size: 20px;
+}
+.nav-link:hover{
+	font-size: 22px;
+}
+
+
+/*banner*/
+
+.banner .container-fluid {
+	padding:0!important;
+}
+
+
+/*關於我*/
+.about {
+	padding:100px 0;
+
+	
+}
+
+.about img {
+	box-shadow:2px 2px 4px gray;
+}
+.title {
+	font-size:36px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.title_line {
+	border-color:#ffffff;
+	
+
+}
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+	display: inline-block;
+	height: auto;
+  	line-height:3;
+}
+.snowsister{
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+	position: fixed ;
+}
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 20px;
+	border-color: black;
+	border-width: 8px;
+	width: 600px;
+}
+
+.title_line1 {
+	margin-bottom: 30px;
+	border-color: black;
+	width: 600px;
+}
+/*商品*/
+.product {
+	
+	padding-bottom:70px;
+}
+.product .card {
+	
+	border-color: black;
+	background-color: black;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+	
+}
+.product .card1 {
+	
+	
+	background-color: rgb(122, 91, 122);
+	padding: 20px 10px;
+	margin-bottom: 10px;
+	border-radius: 80px;
+	
+}
+.product .card2 {
+	
+	
+	background-color: rgb(209, 120, 3);
+	padding: 20px 10px;
+	margin-bottom: 10px;
+	border-radius: 80px;
+	
+}
+.product .card3 {
+	
+	
+	background-color: rgb(40, 140, 165);
+	padding: 20px 10px;
+	margin-bottom: 10px;
+	border-radius: 80px;
+	
+}
+.product .card4 {
+	
+	
+	background-color: rgb(15, 105, 22);
+	padding: 20px 10px;
+	margin-bottom: 10px;
+	border-radius: 80px;
+	
+}
+.product img {
+	width:100%;
+	/*margin-bottom:20px;*/
+	
+}
+
+.product img:hover {
+	opacity: 0.8;
+}
+.product_name_title{
+	padding: 10px;
+	font-size: 26px;
+	color: white;
+}
+.product_name {
+	padding: 10px;
+	color: white;
+}
+.others-block {position: relative;}
+
+.others-img{width: 100%;}
+
+.others-block:hover .others-block-btn {display: flex;}
+
+.others-block-btn {
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #93939375;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+	
+}
+.others-block-btn:hover{
+	color:white;
+	text-align: center;
+}
+
+
+/*聯絡我*/
+.contact {
+	height:800px;
+	margin-top: 50px;
+	
+	padding-top: 50px;
+	background-image: url(../img/contact-bg.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	block-size:cover;
+	background-position: center center;
+}
+
+.contact .title {
+	color:black;
+	font-size: 24px;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #161b1a;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+/*footer*/
+footer {
+	background-color: black;
+	color: white;
+	padding:10px 0; 
+	height: 250px;
+	
+	
+	
+}
+
+footer p {
+	line-height: 39px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+
+}
+.menu{
+	display: flex;
+	justify-content:center;
+}
+.menu_box{
+	
+	
+	background-color: #F3F2F2;
+	border-radius: 20px;
+	margin: 50px;
+	padding: 25px;
+	width: 750px;
+
+	
+
+}
+.menu-link{
+	color: #000000;
+	font-size: 24px;
+	margin: 40px;
+	
+}
+
+.about_ice{
+	display: flex;
+	justify-content:center;
+}
+.ice1{
+	
+	width: 800px;
+	margin: 50px;
+	padding: 50px;
+	background-color: bisque;
+}
+.ice1_name_title{
+	color: blue;
+	font-size: 24px;
+}
+.menu_bg{
+	background-image: url(../img/contact-bg.png);
+	border-radius: 50px;
+	
+	height: 700px;
+}
+
+.product_menu_name{
+	color: black;
+	font-size: 24px;
+	
+	
+	
+
+}
